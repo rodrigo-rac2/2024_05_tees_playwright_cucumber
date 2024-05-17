@@ -1,0 +1,6 @@
+{
+  "default": {
+    "paths": ["tests/features/"],
+    "timeout": 30000
+  }
+}

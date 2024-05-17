@@ -1,0 +1,22 @@
+{
+  "name": "tees",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@cucumber/cucumber": "^10.7.0",
+    "fsevents": "^2.3.2",
+    "playwright": "^1.44.0",
+    "playwright-core": "^1.44.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.12"
+  },
+  "scripts": {
+    "test": "npx cucumber-js --require ./tests/steps/*.js --publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
